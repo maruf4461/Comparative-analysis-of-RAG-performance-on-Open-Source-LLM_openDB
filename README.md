@@ -1,7 +1,9 @@
-Comparative Analysis of RAG System Performance Across Open-Source Large Language Models: A Foundation for Adaptive Knowledge Integration
+#Comparative Analysis of RAG System Performance Across Open-Source Large Language Models: A Foundation for Adaptive Knowledge Integration
 Comparative analysis of RAG performance on Open Source LLM
-Abstract
+
+##Abstract
 This study presents a systematic evaluation of Retrieval-Augmented Generation (RAG) systems across multiple open-source large language models, establishing baseline performance metrics and identifying optimization opportunities. Using freely available models and datasets, we implement and evaluate RAG configurations to understand how different LLM architectures leverage external knowledge. This research provides foundational insights for developing adaptive RAG systems and serves as a precursor to comprehensive PhD dissertation work in information systems.
+
 1. Introduction
 1.1 Problem Statement
 Current RAG implementations lack systematic evaluation across different LLM architectures, making it difficult to select optimal configurations for specific applications. Most studies focus on single models or proprietary systems, limiting reproducibility and practical application.
@@ -10,8 +12,9 @@ Current RAG implementations lack systematic evaluation across different LLM arch
 •	What retrieval strategies work best for different model sizes and capabilities?
 •	How can we establish baseline metrics for future adaptive RAG research?
 1.3 Scope and Limitations
-This initial study focuses on 3-4 open-source models using publicly available datasets and standard evaluation metrics. The goal is to establish a foundation for larger-scale research during PhD studies.
-2. Methodology (Feasible Approach)
+This initial study focuses on 3-4 open-source models using publicly available datasets and standard evaluation metrics. The goal is to establish a foundation for larger-scale research.
+
+3. Methodology (Feasible Approach)
 2.1 Model Selection (Free/Open-Source)
 Primary Models:
 •	LLaMA 2 7B/13B (Meta) - General purpose, widely adopted
@@ -50,22 +53,25 @@ Evaluation Metrics:
 •	Storage: 1TB SSD for models and datasets
 •	Estimated Cost: $500-1000 for compute over 2-3 months
 3. Experimental Plan
-3.1 Phase 1: Baseline Implementation (Month 1)
+3.1 Phase 1: Baseline Implementation
 •	Set up development environment
 •	Implement basic RAG pipeline
 •	Test with single model (LLaMA 2 7B)
 •	Validate evaluation metrics
-3.2 Phase 2: Multi-Model Evaluation (Month 2)
+
+3.2 Phase 2: Multi-Model Evaluation
 •	Extend to all selected models
 •	Run systematic experiments across datasets
 •	Collect performance metrics
 •	Identify patterns and anomalies
-3.3 Phase 3: Analysis and Optimization (Month 3)
+
+3.3 Phase 3: Analysis and Optimization
 •	Statistical analysis of results
 •	Identify best practices per model
 •	Propose optimization strategies
 •	Write paper and prepare submission
-4. Expected Contributions
+
+5. Expected Contributions
 4.1 Academic Contributions
 •	Systematic Comparison: First comprehensive evaluation of RAG across multiple open-source models
 •	Baseline Establishment: Performance benchmarks for future research
@@ -74,11 +80,12 @@ Evaluation Metrics:
 •	Model Selection Guide: Recommendations for different use cases
 •	Implementation Best Practices: Optimal configurations for each model
 •	Open-Source Toolkit: Code and data for community use
-4.3 PhD Foundation
+4.3 Direction
 •	Research Direction: Identifies promising areas for dissertation work
 •	Methodology Validation: Tests approaches for larger studies
 •	Publication Record: Establishes research credibility
-5. Realistic Timeline
+
+7. Realistic Timeline
 Month 1: Setup and Baseline
 •	Week 1-2: Literature review, environment setup
 •	Week 3-4: Basic RAG implementation and testing
@@ -88,7 +95,7 @@ Month 2: Experimentation
 Month 3: Analysis and Writing
 •	Week 9-10: Results analysis and interpretation
 •	Week 11-12: Paper writing and revision
-6. Target Venues
+8. Target Venues
 6.1 Primary Targets (Conferences)
 •	SIGIR (Information Retrieval) - July deadline
 •	EMNLP (Natural Language Processing) - May deadline
@@ -97,7 +104,7 @@ Month 3: Analysis and Writing
 •	ArXiv preprint - Immediate dissemination
 •	ACL Workshop on Retrieval-Augmented Generation
 •	Information Systems Journal - Relevant to PhD field
-7. Resource Management
+9. Resource Management
 7.1 Time Investment
 •	Daily: 4-6 hours (manageable with other commitments)
 •	Weekly: 25-30 hours
@@ -111,7 +118,7 @@ Month 3: Analysis and Writing
 •	Technical Issues: Start with simpler models, scale up gradually
 •	Compute Constraints: Use Google Colab Pro or Kaggle for initial experiments
 •	Timeline Delays: Focus on core experiments, defer optimizations if needed
-8. Future Research Directions (PhD Dissertation)
+10. Future Research Directions (PhD Dissertation)
 8.1 Immediate Extensions
 •	Adaptive RAG Systems: Dynamic strategy selection based on query analysis
 •	Domain-Specific Optimization: Specialized RAG for different fields
@@ -120,7 +127,7 @@ Month 3: Analysis and Writing
 •	Theoretical Framework: Mathematical models of RAG performance
 •	Industrial Applications: Enterprise-scale RAG deployment
 •	Ethical Considerations: Bias and fairness in knowledge retrieval
-9. Success Metrics
+11. Success Metrics
 9.1 Short-Term (Paper Acceptance)
 •	Reproducible Results: Clear methodology and code availability
 •	Novel Insights: New understanding of model-RAG interactions
@@ -133,7 +140,7 @@ Month 3: Analysis and Writing
 •	Dissertation Foundation: Clear research direction and methodology
 •	Industry Relevance: Practical applications and collaborations
 •	Academic Recognition: Established expertise in RAG systems
-10. Conclusion
+12. Conclusion
 This focused research project provides a realistic pathway to contribute meaningful insights to the RAG literature while establishing a foundation for comprehensive PhD dissertation work. By constraining scope to open-source models and public datasets, the study remains feasible within budget and time constraints while still delivering valuable contributions to the field.
 The systematic evaluation approach and reproducible methodology will benefit both academic and practitioner communities, while the identified research directions provide a clear roadmap for future doctoral work in information systems.
  
